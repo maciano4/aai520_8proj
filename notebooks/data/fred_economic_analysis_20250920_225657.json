@@ -1,0 +1,589 @@
+{
+  "analysis_timestamp": "2025-09-20T22:56:57.927182",
+  "analysis_period": {
+    "start_date": "2020-09-21",
+    "end_date": "2025-09-20",
+    "period_years": 5
+  },
+  "economic_indicators": {
+    "GDP": {
+      "series_id": "GDP",
+      "latest_value": 30353.902,
+      "latest_date": "2025-04-01",
+      "data_points": 20,
+      "recent_data": [
+        {
+          "date": "2025-04-01",
+          "value": 30353.902
+        },
+        {
+          "date": "2025-01-01",
+          "value": 29962.047
+        },
+        {
+          "date": "2024-10-01",
+          "value": 29723.864
+        },
+        {
+          "date": "2024-07-01",
+          "value": 29374.914
+        },
+        {
+          "date": "2024-04-01",
+          "value": 29016.714
+        },
+        {
+          "date": "2024-01-01",
+          "value": 28624.069
+        },
+        {
+          "date": "2023-10-01",
+          "value": 28296.967
+        },
+        {
+          "date": "2023-07-01",
+          "value": 27967.697
+        },
+        {
+          "date": "2023-04-01",
+          "value": 27453.815
+        },
+        {
+          "date": "2023-01-01",
+          "value": 27164.359
+        }
+      ]
+    },
+    "UNEMPLOYMENT": {
+      "series_id": "UNRATE",
+      "latest_value": 4.3,
+      "latest_date": "2025-08-01",
+      "data_points": 60,
+      "recent_data": [
+        {
+          "date": "2025-08-01",
+          "value": 4.3
+        },
+        {
+          "date": "2025-07-01",
+          "value": 4.2
+        },
+        {
+          "date": "2025-06-01",
+          "value": 4.1
+        },
+        {
+          "date": "2025-05-01",
+          "value": 4.2
+        },
+        {
+          "date": "2025-04-01",
+          "value": 4.2
+        },
+        {
+          "date": "2025-03-01",
+          "value": 4.2
+        },
+        {
+          "date": "2025-02-01",
+          "value": 4.1
+        },
+        {
+          "date": "2025-01-01",
+          "value": 4.0
+        },
+        {
+          "date": "2024-12-01",
+          "value": 4.1
+        },
+        {
+          "date": "2024-11-01",
+          "value": 4.2
+        }
+      ]
+    },
+    "INFLATION": {
+      "series_id": "CPIAUCSL",
+      "latest_value": 323.364,
+      "latest_date": "2025-08-01",
+      "data_points": 60,
+      "recent_data": [
+        {
+          "date": "2025-08-01",
+          "value": 323.364
+        },
+        {
+          "date": "2025-07-01",
+          "value": 322.132
+        },
+        {
+          "date": "2025-06-01",
+          "value": 321.5
+        },
+        {
+          "date": "2025-05-01",
+          "value": 320.58
+        },
+        {
+          "date": "2025-04-01",
+          "value": 320.321
+        },
+        {
+          "date": "2025-03-01",
+          "value": 319.615
+        },
+        {
+          "date": "2025-02-01",
+          "value": 319.775
+        },
+        {
+          "date": "2025-01-01",
+          "value": 319.086
+        },
+        {
+          "date": "2024-12-01",
+          "value": 317.603
+        },
+        {
+          "date": "2024-11-01",
+          "value": 316.449
+        }
+      ]
+    },
+    "FED_FUNDS_RATE": {
+      "series_id": "FEDFUNDS",
+      "latest_value": 4.33,
+      "latest_date": "2025-08-01",
+      "data_points": 60,
+      "recent_data": [
+        {
+          "date": "2025-08-01",
+          "value": 4.33
+        },
+        {
+          "date": "2025-07-01",
+          "value": 4.33
+        },
+        {
+          "date": "2025-06-01",
+          "value": 4.33
+        },
+        {
+          "date": "2025-05-01",
+          "value": 4.33
+        },
+        {
+          "date": "2025-04-01",
+          "value": 4.33
+        },
+        {
+          "date": "2025-03-01",
+          "value": 4.33
+        },
+        {
+          "date": "2025-02-01",
+          "value": 4.33
+        },
+        {
+          "date": "2025-01-01",
+          "value": 4.33
+        },
+        {
+          "date": "2024-12-01",
+          "value": 4.48
+        },
+        {
+          "date": "2024-11-01",
+          "value": 4.64
+        }
+      ]
+    },
+    "TREASURY_10Y": {
+      "series_id": "GS10",
+      "latest_value": 4.26,
+      "latest_date": "2025-08-01",
+      "data_points": 60,
+      "recent_data": [
+        {
+          "date": "2025-08-01",
+          "value": 4.26
+        },
+        {
+          "date": "2025-07-01",
+          "value": 4.39
+        },
+        {
+          "date": "2025-06-01",
+          "value": 4.38
+        },
+        {
+          "date": "2025-05-01",
+          "value": 4.42
+        },
+        {
+          "date": "2025-04-01",
+          "value": 4.28
+        },
+        {
+          "date": "2025-03-01",
+          "value": 4.28
+        },
+        {
+          "date": "2025-02-01",
+          "value": 4.45
+        },
+        {
+          "date": "2025-01-01",
+          "value": 4.63
+        },
+        {
+          "date": "2024-12-01",
+          "value": 4.39
+        },
+        {
+          "date": "2024-11-01",
+          "value": 4.36
+        }
+      ]
+    },
+    "TREASURY_2Y": {
+      "series_id": "GS2",
+      "latest_value": 3.7,
+      "latest_date": "2025-08-01",
+      "data_points": 60,
+      "recent_data": [
+        {
+          "date": "2025-08-01",
+          "value": 3.7
+        },
+        {
+          "date": "2025-07-01",
+          "value": 3.88
+        },
+        {
+          "date": "2025-06-01",
+          "value": 3.89
+        },
+        {
+          "date": "2025-05-01",
+          "value": 3.92
+        },
+        {
+          "date": "2025-04-01",
+          "value": 3.78
+        },
+        {
+          "date": "2025-03-01",
+          "value": 3.97
+        },
+        {
+          "date": "2025-02-01",
+          "value": 4.21
+        },
+        {
+          "date": "2025-01-01",
+          "value": 4.27
+        },
+        {
+          "date": "2024-12-01",
+          "value": 4.23
+        },
+        {
+          "date": "2024-11-01",
+          "value": 4.26
+        }
+      ]
+    },
+    "CONSUMER_SENTIMENT": {
+      "series_id": "UMCSENT",
+      "latest_value": 61.7,
+      "latest_date": "2025-07-01",
+      "data_points": 59,
+      "recent_data": [
+        {
+          "date": "2025-07-01",
+          "value": 61.7
+        },
+        {
+          "date": "2025-06-01",
+          "value": 60.7
+        },
+        {
+          "date": "2025-05-01",
+          "value": 52.2
+        },
+        {
+          "date": "2025-04-01",
+          "value": 52.2
+        },
+        {
+          "date": "2025-03-01",
+          "value": 57.0
+        },
+        {
+          "date": "2025-02-01",
+          "value": 64.7
+        },
+        {
+          "date": "2025-01-01",
+          "value": 71.7
+        },
+        {
+          "date": "2024-12-01",
+          "value": 74.0
+        },
+        {
+          "date": "2024-11-01",
+          "value": 71.8
+        },
+        {
+          "date": "2024-10-01",
+          "value": 70.5
+        }
+      ]
+    },
+    "INDUSTRIAL_PRODUCTION": {
+      "series_id": "INDPRO",
+      "latest_value": 103.9203,
+      "latest_date": "2025-08-01",
+      "data_points": 60,
+      "recent_data": [
+        {
+          "date": "2025-08-01",
+          "value": 103.9203
+        },
+        {
+          "date": "2025-07-01",
+          "value": 103.8194
+        },
+        {
+          "date": "2025-06-01",
+          "value": 104.2115
+        },
+        {
+          "date": "2025-05-01",
+          "value": 103.657
+        },
+        {
+          "date": "2025-04-01",
+          "value": 103.6224
+        },
+        {
+          "date": "2025-03-01",
+          "value": 103.5408
+        },
+        {
+          "date": "2025-02-01",
+          "value": 103.8705
+        },
+        {
+          "date": "2025-01-01",
+          "value": 102.8805
+        },
+        {
+          "date": "2024-12-01",
+          "value": 103.0447
+        },
+        {
+          "date": "2024-11-01",
+          "value": 101.9503
+        }
+      ]
+    }
+  },
+  "trend_analysis": {
+    "GDP": {
+      "current_value": 30353.902,
+      "previous_value": 29962.047,
+      "period_change": 391.85499999999956,
+      "period_change_pct": 1.307837879034098,
+      "total_change": 8669.350999999999,
+      "total_change_pct": 39.979389012942896,
+      "volatility": 2667.573006100629,
+      "trend_direction": "Rising",
+      "mean_value": 26522.19595,
+      "min_value": 21684.551,
+      "max_value": 30353.902,
+      "data_points": 20
+    },
+    "UNEMPLOYMENT": {
+      "current_value": 4.3,
+      "previous_value": 4.2,
+      "period_change": 0.09999999999999964,
+      "period_change_pct": 2.3809523809523725,
+      "total_change": -3.5,
+      "total_change_pct": -44.871794871794876,
+      "volatility": 1.0344671199328772,
+      "trend_direction": "Stable",
+      "mean_value": 4.356666666666666,
+      "min_value": 3.4,
+      "max_value": 7.8,
+      "data_points": 60
+    },
+    "INFLATION": {
+      "current_value": 323.364,
+      "previous_value": 322.132,
+      "period_change": 1.231999999999971,
+      "period_change_pct": 0.38245191412215207,
+      "total_change": 63.36699999999996,
+      "total_change_pct": 24.37220429466492,
+      "volatility": 19.60967750499029,
+      "trend_direction": "Stable",
+      "mean_value": 296.5598166666668,
+      "min_value": 259.997,
+      "max_value": 323.364,
+      "data_points": 60
+    },
+    "FED_FUNDS_RATE": {
+      "current_value": 4.33,
+      "previous_value": 4.33,
+      "period_change": 0.0,
+      "period_change_pct": 0.0,
+      "total_change": 4.24,
+      "total_change_pct": 4711.111111111111,
+      "volatility": 2.2412990466840137,
+      "trend_direction": "Stable",
+      "mean_value": 2.9695000000000014,
+      "min_value": 0.06,
+      "max_value": 5.33,
+      "data_points": 60
+    },
+    "TREASURY_10Y": {
+      "current_value": 4.26,
+      "previous_value": 4.39,
+      "period_change": -0.1299999999999999,
+      "period_change_pct": -2.961275626423688,
+      "total_change": 3.5799999999999996,
+      "total_change_pct": 526.470588235294,
+      "volatility": 1.2894436354059406,
+      "trend_direction": "Stable",
+      "mean_value": 3.151333333333332,
+      "min_value": 0.68,
+      "max_value": 4.8,
+      "data_points": 60
+    },
+    "TREASURY_2Y": {
+      "current_value": 3.7,
+      "previous_value": 3.88,
+      "period_change": -0.17999999999999972,
+      "period_change_pct": -4.639175257731951,
+      "total_change": 3.5700000000000003,
+      "total_change_pct": 2746.153846153846,
+      "volatility": 1.8282800356862425,
+      "trend_direction": "Stable",
+      "mean_value": 2.977666666666666,
+      "min_value": 0.12,
+      "max_value": 5.07,
+      "data_points": 60
+    },
+    "CONSUMER_SENTIMENT": {
+      "current_value": 61.7,
+      "previous_value": 60.7,
+      "period_change": 1.0,
+      "period_change_pct": 1.6474464579901154,
+      "total_change": -18.700000000000003,
+      "total_change_pct": -23.258706467661693,
+      "volatility": 9.136669538181197,
+      "trend_direction": "Stable",
+      "mean_value": 68.36949152542371,
+      "min_value": 50.0,
+      "max_value": 88.3,
+      "data_points": 59
+    },
+    "INDUSTRIAL_PRODUCTION": {
+      "current_value": 103.9203,
+      "previous_value": 103.8194,
+      "period_change": 0.10089999999999577,
+      "period_change_pct": 0.09718800147178251,
+      "total_change": 8.028899999999993,
+      "total_change_pct": 8.372909353706373,
+      "volatility": 2.1231413706502598,
+      "trend_direction": "Stable",
+      "mean_value": 101.77387000000002,
+      "min_value": 95.5072,
+      "max_value": 104.2115,
+      "data_points": 60
+    }
+  },
+  "metadata": {
+    "GDP": {
+      "id": "GDP",
+      "title": "Gross Domestic Product",
+      "units": "Billions of Dollars",
+      "frequency": "Quarterly",
+      "last_updated": "2025-08-28 07:55:03-05",
+      "notes": "BEA Account Code: A191RC\n\nGross domestic product (GDP), the featured measure of U.S. output, is the market value of the goods and services produced by labor and property located in the United States.For more information, see the Guide to the National Income and Product Accounts of the United States (NIPA) and the Bureau of Economic Analysis (http://www.bea.gov/national/pdf/nipaguid.pdf)."
+    },
+    "UNEMPLOYMENT": {
+      "id": "UNRATE",
+      "title": "Unemployment Rate",
+      "units": "Percent",
+      "frequency": "Monthly",
+      "last_updated": "2025-09-05 07:51:01-05",
+      "notes": "The unemployment rate represents the number of unemployed as a percentage of the labor force. Labor force data are restricted to people 16 years of age and older, who currently reside in 1 of the 50 states or the District of Columbia, who do not reside in institutions (e.g., penal and mental facilities, homes for the aged), and who are not on active duty in the Armed Forces.\r\n\r\nThis rate is also defined as the U-3 measure of labor underutilization.\r\n\r\nThe series comes from the 'Current Population Survey (Household Survey)'\r\n\r\nThe source code is: LNS14000000"
+    },
+    "INFLATION": {
+      "id": "CPIAUCSL",
+      "title": "Consumer Price Index for All Urban Consumers: All Items in U.S. City Average",
+      "units": "Index 1982-1984=100",
+      "frequency": "Monthly",
+      "last_updated": "2025-09-11 07:42:02-05",
+      "notes": "The Consumer Price Index for All Urban Consumers: All Items (CPIAUCSL) is a price index of a basket of goods and services paid by urban consumers. Percent changes in the price index measure the inflation rate between any two time periods. The most common inflation metric is the percent change from one year ago. It can also represent the buying habits of urban consumers. This particular index includes roughly 88 percent of the total population, accounting for wage earners, clerical workers, technical workers, self-employed, short-term workers, unemployed, retirees, and those not in the labor force.\r\n\r\nThe CPIs are based on prices for food, clothing, shelter, and fuels; transportation fares; service fees (e.g., water and sewer service); and sales taxes. Prices are collected monthly from about 4,000 housing units and approximately 26,000 retail establishments across 87 urban areas. To calculate the index, price changes are averaged with weights representing their importance in the spending of the particular group. The index measures price changes (as a percent change) from a predetermined reference date. In addition to the original unadjusted index distributed, the Bureau of Labor Statistics also releases a seasonally adjusted index. The unadjusted series reflects all factors that may influence a change in prices. However, it can be very useful to look at the seasonally adjusted CPI, which removes the effects of seasonal changes, such as weather, school year, production cycles, and holidays.\r\n\r\nThe CPI can be used to recognize periods of inflation and deflation. Significant increases in the CPI within a short time frame might indicate a period of inflation, and significant decreases in CPI within a short time frame might indicate a period of deflation. However, because the CPI includes volatile food and oil prices, it might not be a reliable measure of inflationary and deflationary periods. For a more accurate detection, the core CPI (CPILFESL (https://fred.stlouisfed.org/series/CPILFESL)) is often used. When using the CPI, please note that it is not applicable to all consumers and should not be used to determine relative living costs. Additionally, the CPI is a statistical measure vulnerable to sampling error since it is based on a sample of prices and not the complete average.\r\n\r\nFor more information on the CPI, see the Handbook of Methods (https://www.bls.gov/opub/hom/cpi/), the release notes and announcements (https://www.bls.gov/cpi/), and the Frequently Asked Questions (https://www.bls.gov/cpi/questions-and-answers.htm) (FAQs)."
+    },
+    "FED_FUNDS_RATE": {
+      "id": "FEDFUNDS",
+      "title": "Federal Funds Effective Rate",
+      "units": "Percent",
+      "frequency": "Monthly",
+      "last_updated": "2025-09-02 15:17:17-05",
+      "notes": " Daily Federal Funds Rate from 1928-1954 (https://fred.stlouisfed.org/categories/33951).\n\nThe federal funds rate is the interest rate at which depository institutions trade federal funds (balances held at Federal Reserve Banks) with each other overnight. When a depository institution has surplus balances in its reserve account, it lends to other banks in need of larger balances. In simpler terms, a bank with excess cash, which is often referred to as liquidity, will lend to another bank that needs to quickly raise liquidity. (1) The rate that the borrowing institution pays to the lending institution is determined between the two banks; the weighted average rate for all of these types of negotiations is called the effective federal funds rate.(2) The effective federal funds rate is essentially determined by the market but is influenced by the Federal Reserve as it uses the Interest on Reserve Balances rate to steer the federal funds rate toward the target range.(2)\n\nThe Federal Open Market Committee (FOMC) meets eight times a year to determine the federal funds target range. The Fed's primary tool for influencing the federal funds rate is the interest the Fed pays on the funds that banks hold as reserve balances at their Federal Reserve Bank, which is the Interest on Reserves Balances (IORB) rate. Because banks are unlikely to lend funds in the federal funds market for less than they get paid in their reserve balance account at the Federal Reserve, the Interest on Reserve Balances (IORB) is an effective tool for guiding the federal funds rate. (3) Whether the Federal Reserve raises or lowers the target range for the federal funds rate depends on the state of the economy. If the FOMC believes the economy is growing too fast and inflation pressures are inconsistent with the dual mandate of the Federal Reserve, the Committee may temper economic activity by raising the target range for federal funds rate, and increasing the IORB rate to steer the federal funds rate into the target range. In the opposing scenario, the FOMC may spur greater economic activity by lowering the target range for federal funds rate, and decreasing the IORB rate to steer the federal funds rate into the target range. (3) Therefore, the FOMC must observe the current state of the economy to determine the best course of monetary policy that will maximize economic growth while adhering to the dual mandate set forth by Congress. In making its monetary policy decisions, the FOMC considers a wealth of economic data, such as: trends in prices and wages, employment, consumer spending and income, business investments, and foreign exchange markets.\n\nThe federal funds rate is the central interest rate in the U.S. financial market. It influences other interest rates such as the prime rate, which is the rate banks charge their customers with higher credit ratings. Additionally, the federal funds rate indirectly influences longer- term interest rates such as mortgages, loans, and savings, all of which are very important to consumer wealth and confidence.(2)\n\nReferences\n(1) Federal Reserve Bank of New York. \"Federal funds.\" Fedpoints, August 2007.\n(2) Monetary Policy (https://www.federalreserve.gov/monetarypolicy.htm), Board of Governors of the Federal Reserve System.\n(3) The Fed Explained (https://www.federalreserve.gov/aboutthefed/files/the-fed-explained.pdf), Board of Governors of the Federal Reserve System\n\nFor further information, see The Fed's New Monetary Policy Tools (https://www.stlouisfed.org/publications/page-one-economics/2020/08/03/the-feds-new-monetary-policy-tools), Page One Economics, Federal Reserve Bank of St. Louis. \n\nFor questions on the data, please contact the data source (https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h15/%). For questions on FRED functionality, please contact us here (https://fred.stlouisfed.org/contactus/).</p>"
+    },
+    "TREASURY_10Y": {
+      "id": "GS10",
+      "title": "Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity, Quoted on an Investment Basis",
+      "units": "Percent",
+      "frequency": "Monthly",
+      "last_updated": "2025-09-02 15:16:42-05",
+      "notes": "H.15 Statistical Release notes (https://www.federalreserve.gov/releases/h15/default.htm) and the Treasury Yield Curve Methodology (https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics/treasury-yield-curve-methodology).\n\nFor questions on the data, please contact the data source (https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h15/%). For questions on FRED functionality, please contact us here (https://fred.stlouisfed.org/contactus/).</p>"
+    },
+    "TREASURY_2Y": {
+      "id": "GS2",
+      "title": "Market Yield on U.S. Treasury Securities at 2-Year Constant Maturity, Quoted on an Investment Basis",
+      "units": "Percent",
+      "frequency": "Monthly",
+      "last_updated": "2025-09-02 15:16:44-05",
+      "notes": "H.15 Statistical Release notes (https://www.federalreserve.gov/releases/h15/default.htm) and the Treasury Yield Curve Methodology (https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics/treasury-yield-curve-methodology).\n\nFor questions on the data, please contact the data source (https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h15/%). For questions on FRED functionality, please contact us here (https://fred.stlouisfed.org/contactus/).</p>"
+    },
+    "CONSUMER_SENTIMENT": {
+      "id": "UMCSENT",
+      "title": "University of Michigan: Consumer Sentiment",
+      "units": "Index 1966:Q1=100",
+      "frequency": "Monthly",
+      "last_updated": "2025-08-29 10:01:01-05",
+      "notes": "At the request of the source, the data is delayed by 1 month. To obtain historical data prior to January 1978, please see FRED data series UMCSENT1.\n\nThis data should be cited as follows: \"Surveys of Consumers, University of Michigan, University of Michigan: Consumer Sentiment \u00a9 [UMCSENT], retrieved from FRED, Federal Reserve Bank of St. Louis (https://fred.stlouisfed.org/series/UMCSENT/), (Accessed on date)\"\n\nCopyright, 2016, Surveys of Consumers, University of Michigan. Reprinted with permission."
+    },
+    "INDUSTRIAL_PRODUCTION": {
+      "id": "INDPRO",
+      "title": "Industrial Production: Total Index",
+      "units": "Index 2017=100",
+      "frequency": "Monthly",
+      "last_updated": "2025-09-16 08:24:55-05",
+      "notes": "explanatory notes (https://www.federalreserve.gov/releases/g17/About.htm) issued by the Board of Governors. For recent updates, see the  announcements (https://www.federalreserve.gov/feeds/g17.html) issued by the Board of Governors.</p>"
+    }
+  },
+  "analysis_summary": {
+    "economic_outlook": "TRANSITIONAL - Mixed economic signals",
+    "investment_theme": "Balanced approach with selective opportunities",
+    "growth_signals": [
+      "GDP trending upward (+1.3%)"
+    ],
+    "inflation_signals": [
+      "Elevated inflation at 323.4%"
+    ],
+    "monetary_signals": [
+      "Fed holding rates steady at 4.33%",
+      "TREASURY_10Y yields elevated at 4.26%"
+    ],
+    "risk_signals": []
+  }
+}
