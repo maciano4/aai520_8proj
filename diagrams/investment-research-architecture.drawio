@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" scale="1" border="10">
     <diagram name="System Architecture" id="investment-architecture">
-        <mxGraphModel dx="2520" dy="1416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1386" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -65,10 +65,10 @@
                     <mxGeometry x="90" y="720" width="220" height="25" as="geometry"/>
                 </mxCell>
                 <mxCell id="agent-memory" value="AgentMemory&#xa;&#xa;• FAISS Vector Store&#xa;• Experience Storage&#xa;• Relevant Retrieval&#xa;• Persistent Learning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C62828;strokeWidth=2;" parent="1" vertex="1">
-                    <mxGeometry x="400" y="730" width="200" height="100" as="geometry"/>
+                    <mxGeometry x="400" y="721" width="200" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="embeddings" value="Azure OpenAI Embeddings&#xa;&#xa;• Text Vectorization&#xa;• Semantic Search&#xa;• Memory Indexing&#xa;• Context Retrieval" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C62828;strokeWidth=2;" parent="1" vertex="1">
-                    <mxGeometry x="740" y="730" width="200" height="91" as="geometry"/>
+                    <mxGeometry x="730" y="725" width="200" height="91" as="geometry"/>
                 </mxCell>
                 <mxCell id="data-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5FE;strokeColor=#01579B;strokeWidth=3;" parent="1" vertex="1">
                     <mxGeometry x="80" y="850" width="1480" height="140" as="geometry"/>
@@ -128,13 +128,13 @@
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.361;entryY=-0.006;strokeColor=#F57F17;strokeWidth=3;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="main-agent" target="pattern2">
+                <mxCell id="3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.361;entryY=-0.006;strokeColor=#F57F17;strokeWidth=3;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="main-agent" target="pattern2" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="530" y="490" as="sourcePoint"/>
                         <mxPoint x="500" y="525" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.361;entryY=-0.006;strokeColor=#F57F17;strokeWidth=3;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="main-agent">
+                <mxCell id="5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.361;entryY=-0.006;strokeColor=#F57F17;strokeWidth=3;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="main-agent" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="760" y="490" as="sourcePoint"/>
                         <mxPoint x="991" y="524" as="targetPoint"/>
