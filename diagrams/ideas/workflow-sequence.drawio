@@ -1,0 +1,295 @@
+<mxfile host="65bd71144e" scale="1" border="5">
+    <diagram name="Investment Research Workflow" id="sequence-workflow">
+        <mxGraphModel dx="906" dy="445" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1669" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" value="ApesInSuits Investment Research - Complete Workflow Sequence" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="327" y="20" width="1000" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="user-lane" value="User" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#0277BD;strokeWidth=2;fontSize=12;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="80" y="80" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="angular-lane" value="Angular UI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#2E7D32;strokeWidth=2;fontSize=12;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="220" y="80" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="mcp-lane" value="MCP Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#4A148C;strokeWidth=2;fontSize=12;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="360" y="80" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="planner-lane" value="Planner Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#F57F17;strokeWidth=2;fontSize=12;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="500" y="80" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="stock-lane" value="Stock Analyzer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#C62828;strokeWidth=2;fontSize=12;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="640" y="80" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="news-lane" value="News Analyzer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#AD1457;strokeWidth=2;fontSize=12;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="780" y="80" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="macro-lane" value="Macro Analyzer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2F1;strokeColor=#00695C;strokeWidth=2;fontSize=12;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="920" y="80" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="rag-lane" value="RAG System" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E65100;strokeWidth=2;fontSize=12;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="1060" y="80" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="external-lane" value="External APIs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontSize=12;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="1200" y="80" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="user-lifeline" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#0277BD;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="130" y="120" as="sourcePoint"/>
+                        <mxPoint x="130" y="1200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="angular-lifeline" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#2E7D32;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="270" y="120" as="sourcePoint"/>
+                        <mxPoint x="270" y="1200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mcp-lifeline" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#4A148C;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="410" y="120" as="sourcePoint"/>
+                        <mxPoint x="410" y="1200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="planner-lifeline" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#F57F17;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="550" y="120" as="sourcePoint"/>
+                        <mxPoint x="550" y="1200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="stock-lifeline" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#C62828;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="690" y="120" as="sourcePoint"/>
+                        <mxPoint x="690" y="1200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="news-lifeline" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#AD1457;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="830" y="120" as="sourcePoint"/>
+                        <mxPoint x="830" y="1200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="macro-lifeline" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#00695C;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="970" y="120" as="sourcePoint"/>
+                        <mxPoint x="970" y="1200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="rag-lifeline" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#E65100;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1110" y="120" as="sourcePoint"/>
+                        <mxPoint x="1110" y="1200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="external-lifeline" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1250" y="120" as="sourcePoint"/>
+                        <mxPoint x="1250" y="1200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="phase1-title" value="Phase 1: Initial Research Request" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#0D47A1;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=white;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="150" width="1220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="step1-arrow" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#0277BD;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="130" y="200" as="sourcePoint"/>
+                        <mxPoint x="270" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="step1-label" value="1. Research Request&#xa;Analyze AAPL for Q4 2024" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#0277BD;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="180" width="120" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="step2-arrow" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#2E7D32;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="270" y="230" as="sourcePoint"/>
+                        <mxPoint x="410" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="step2-label" value="2. Validate and Format Request&#xa;Send to MCP Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#2E7D32;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="200" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="step3-arrow" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#4A148C;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="410" y="260" as="sourcePoint"/>
+                        <mxPoint x="550" y="260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="step3-label" value="3. Route to Planner Agent&#xa;Initialize Research Session" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#4A148C;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="210" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase2-title" value="Phase 2: Research Strategy and Planning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#388E3C;strokeColor=#1B5E20;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=white;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="300" width="1220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="planner-internal1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#F57F17;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="535" y="350" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="step4-label" value="4. Analyze Request&#xa;Parse ticker AAPL&#xa;Identify research scope&#xa;Define objectives&#xa;Create execution plan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#F57F17;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="580" y="340" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="step5a-arrow" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#F57F17;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="550" y="440" as="sourcePoint"/>
+                        <mxPoint x="690" y="440" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="step5a-label" value="5a. Assign: Stock Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#C62828;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="580" y="420" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="step5b-arrow" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#F57F17;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="550" y="470" as="sourcePoint"/>
+                        <mxPoint x="830" y="470" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="step5b-label" value="5b. Assign: News Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#AD1457;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="450" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="step5c-arrow" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#F57F17;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="550" y="500" as="sourcePoint"/>
+                        <mxPoint x="970" y="500" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="step5c-label" value="5c. Assign: Macro Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2F1;strokeColor=#00695C;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="480" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase3-title" value="Phase 3: Parallel Multi-Agent Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D32F2F;strokeColor=#B71C1C;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=white;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="540" width="1220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="stock-to-yfinance-arrow" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#C62828;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="690" y="600" as="sourcePoint"/>
+                        <mxPoint x="1250" y="600" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="stock-to-yfinance-label" value="Get AAPL price data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="900" y="580" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="yfinance-to-stock-arrow" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#666666;dashed=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1250" y="630" as="sourcePoint"/>
+                        <mxPoint x="690" y="630" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="yfinance-to-stock-label" value="Return price history" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="920" y="610" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="news-to-api-arrow" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#AD1457;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="830" y="680" as="sourcePoint"/>
+                        <mxPoint x="1250" y="680" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="news-to-api-label" value="Search AAPL news" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="1000" y="660" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="api-to-news-arrow" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#666666;dashed=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1250" y="710" as="sourcePoint"/>
+                        <mxPoint x="830" y="710" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="api-to-news-label" value="Return news articles" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="1000" y="690" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="macro-to-fred-arrow" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#00695C;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="970" y="760" as="sourcePoint"/>
+                        <mxPoint x="1250" y="760" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="macro-to-fred-label" value="Get economic data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="1080" y="740" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="fred-to-macro-arrow" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#666666;dashed=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1250" y="790" as="sourcePoint"/>
+                        <mxPoint x="970" y="790" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="fred-to-macro-label" value="Return indicators" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="1080" y="770" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase4-title" value="Phase 4: Knowledge Retrieval and Context Enhancement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E65100;strokeColor=#BF360C;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=white;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="830" width="1220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="rag-query-arrow" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#E65100;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="830" y="880" as="sourcePoint"/>
+                        <mxPoint x="1110" y="880" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="rag-query-label" value="7. Query RAG System&#xa;AAPL Q4 2024 context" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E65100;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="890" y="860" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="rag-response-arrow" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#E65100;dashed=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1110" y="920" as="sourcePoint"/>
+                        <mxPoint x="830" y="920" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="rag-response-label" value="Return contextual data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E65100;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="920" y="900" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase5-title" value="Phase 5: Analysis Synthesis and Report Generation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7B1FA2;strokeColor=#4A148C;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=white;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="960" width="1220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="results-to-planner1" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#C62828;dashed=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="690" y="1010" as="sourcePoint"/>
+                        <mxPoint x="550" y="1010" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="results1-label" value="Stock analysis results" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#C62828;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="580" y="990" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="results-to-planner2" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#AD1457;dashed=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="830" y="1040" as="sourcePoint"/>
+                        <mxPoint x="550" y="1040" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="results2-label" value="News analysis results" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#AD1457;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="1020" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="results-to-planner3" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#00695C;dashed=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="970" y="1070" as="sourcePoint"/>
+                        <mxPoint x="550" y="1070" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="results3-label" value="Macro analysis results" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2F1;strokeColor=#00695C;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="1050" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="final-to-mcp" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#F57F17;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="550" y="1120" as="sourcePoint"/>
+                        <mxPoint x="410" y="1120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="final-to-mcp-label" value="Complete research report" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#4A148C;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="1100" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="mcp-to-ui" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#4A148C;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="410" y="1150" as="sourcePoint"/>
+                        <mxPoint x="270" y="1150" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mcp-to-ui-label" value="Format and send response" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#2E7D32;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="1130" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="ui-to-user" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#2E7D32;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="270" y="1180" as="sourcePoint"/>
+                        <mxPoint x="130" y="1180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ui-to-user-label" value="Display research results" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#0277BD;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="1160" width="100" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
