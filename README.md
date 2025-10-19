@@ -12,38 +12,38 @@ AAI-520 Final Project: Advanced AI Investment Research System
 - Christopher Akeibom Toh (cakeibomtoh@sandiego.edu)
 - Nelson Arellano Parra (narellanoparra@sandiego.edu)
 
-## 🎯 Project Overview
+## Project Overview
 
 This project implements a comprehensive Investment Research Agent using multiple AI agent patterns and Azure OpenAI. The system demonstrates advanced autonomous AI capabilities for investment analysis and decision-making.
 
-## ✅ Requirements
+## Requirements
 
 ### **Agent Functions (33.8%)**
-- ✅ **Plans research steps** for given stock symbols using structured planning
-- ✅ **Uses tools dynamically** with Yahoo Finance, NewsAPI, FRED, and Alpha Vantage APIs
-- ✅ **Self-reflects** to assess output quality across multiple dimensions
-- ✅ **Learns across runs** using FAISS vector database for persistent memory
+- **Plans research steps** for given stock symbols using structured planning
+- **Uses tools dynamically** with Yahoo Finance, NewsAPI, FRED, and Alpha Vantage APIs
+- **Self-reflects** to assess output quality across multiple dimensions
+- **Learns across runs** using FAISS vector database for persistent memory
 
 ### **Workflow Patterns (33.8%)**
-1. ✅ **Prompt Chaining**: News Ingest → Preprocess → Classify → Extract → Summarize
-2. ✅ **Routing**: Directs analysis to specialist agents (Technical, Fundamental, News)
-3. ✅ **Evaluator-Optimizer**: Generate → Evaluate → Refine using Azure OpenAI
+1. **Prompt Chaining**: News Ingest → Preprocess → Classify → Extract → Summarize
+2. **Routing**: Directs analysis to specialist agents (Technical, Fundamental, News)
+3. **Evaluator-Optimizer**: Generate → Evaluate → Refine using Azure OpenAI
 
 ### **Technology Stack**
-- ✅ **Python** with LangChain framework
-- ✅ **Azure OpenAI API** for all LLM operations
-- ✅ **Data Sources**: Yahoo Finance (yfinance), NewsAPI, FRED, Alpha Vantage
-- ✅ **Vector Database**: FAISS for persistent agent memory
-- ✅ **Visualization**: Matplotlib, Seaborn, Plotly for comprehensive charts
-- ✅ **Web Interface**: Gradio for interactive analysis
+- **Python** with LangChain framework
+- **Azure OpenAI API** for all LLM operations
+- **Data Sources**: Yahoo Finance (yfinance), NewsAPI, FRED, Alpha Vantage
+- **Vector Database**: FAISS for persistent agent memory
+- **Visualization**: Matplotlib, Seaborn, Plotly for comprehensive charts
+- **Web Interface**: Gradio for interactive analysis
 
-## 📁 Deliverable Files
+## Deliverable Files
 
 1. **`investment_research_agent.ipynb`** - Main notebook with complete system
 2. **`.env`** - Environment configuration with API keys
 3. **`README.md`** - This documentation file
 
-## 🚀 Quick Start
+## Quick Start
 
 1. **Install Dependencies**:
 ```bash
