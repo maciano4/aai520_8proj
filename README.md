@@ -10,7 +10,7 @@ AAI-520 Final Project: Advanced AI Investment Research System
 **Contributors**:
 - Swapnil Patil (spatil@sandiego.edu)
 - Christopher Akeibom Toh (cakeibomtoh@sandiego.edu)
-- Nelson Arellano (narellanoparra@sandiego.edu)
+- Nelson Arellano Parra (narellanoparra@sandiego.edu)
 
 ## 🎯 Project Overview
 
