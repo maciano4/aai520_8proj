@@ -1,0 +1,277 @@
+<mxfile host="65bd71144e" scale="1" border="5">
+    <diagram name="Workflow Sequence" id="investment-sequence">
+        <mxGraphModel dx="1153" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" value="Investment Research Agent - Workflow Sequence Diagram" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#1976D2" parent="1" vertex="1">
+                    <mxGeometry x="327" y="20" width="1000" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="user-lane" value="User" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#0277BD;strokeWidth=2;fontSize=12;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="80" y="80" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="gradio-lane" value="Gradio UI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#2E7D32;strokeWidth=2;fontSize=12;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="220" y="80" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="main-agent-lane" value="Main Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#F57F17;strokeWidth=2;fontSize=12;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="360" y="80" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="news-chain-lane" value="News Chain" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#4A148C;strokeWidth=2;fontSize=12;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="500" y="80" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="routing-lane" value="Routing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#C62828;strokeWidth=2;fontSize=12;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="640" y="80" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="specialists-lane" value="Specialists" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2F1;strokeColor=#00695C;strokeWidth=2;fontSize=12;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="780" y="80" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="evaluator-lane" value="Evaluator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E65100;strokeWidth=2;fontSize=12;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="920" y="80" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="memory-lane" value="Memory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#880E4F;strokeWidth=2;fontSize=12;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="1060" y="80" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="data-sources-lane" value="Data APIs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontSize=12;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="1200" y="80" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="user-lifeline" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#0277BD;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="130" y="120" as="sourcePoint"/>
+                        <mxPoint x="130" y="1100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="gradio-lifeline" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#2E7D32;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="270" y="120" as="sourcePoint"/>
+                        <mxPoint x="270" y="1100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="main-lifeline" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#F57F17;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="410" y="120" as="sourcePoint"/>
+                        <mxPoint x="410" y="1100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="news-lifeline" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#4A148C;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="550" y="120" as="sourcePoint"/>
+                        <mxPoint x="550" y="1100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="routing-lifeline" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#C62828;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="690" y="120" as="sourcePoint"/>
+                        <mxPoint x="690" y="1100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="specialists-lifeline" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#00695C;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="830" y="120" as="sourcePoint"/>
+                        <mxPoint x="830" y="1100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="evaluator-lifeline" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#E65100;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="970" y="120" as="sourcePoint"/>
+                        <mxPoint x="970" y="1100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="memory-lifeline" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#880E4F;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1110" y="120" as="sourcePoint"/>
+                        <mxPoint x="1110" y="1100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="data-lifeline" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1250" y="120" as="sourcePoint"/>
+                        <mxPoint x="1250" y="1100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg1" value="1: analyze_stock(symbol, analysis_type)" style="endArrow=classic;html=1;rounded=0;strokeColor=#0277BD;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="130" y="160" as="sourcePoint"/>
+                        <mxPoint x="270" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg2" value="2: conduct_comprehensive_research()" style="endArrow=classic;html=1;rounded=0;strokeColor=#2E7D32;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="270" y="180" as="sourcePoint"/>
+                        <mxPoint x="410" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="planning-box" value="Planning Phase" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#F57F17;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="200" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="msg3" value="3: plan_research(task)" style="endArrow=classic;html=1;rounded=0;strokeColor=#F57F17;strokeWidth=2;endArrow=classic;startArrow=none;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="410" y="250" as="sourcePoint"/>
+                        <mxPoint x="410" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg4" value="4: retrieve_relevant_experience()" style="endArrow=classic;html=1;rounded=0;strokeColor=#880E4F;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="410" y="290" as="sourcePoint"/>
+                        <mxPoint x="1110" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg4-return" value="past experiences" style="endArrow=classic;html=1;rounded=0;strokeColor=#880E4F;strokeWidth=2;dashed=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1110" y="310" as="sourcePoint"/>
+                        <mxPoint x="410" y="310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern1-box" value="Pattern 1: Prompt Chaining (News Processing)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#4A148C;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="340" width="300" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="msg5" value="5: process_news_chain(symbol)" style="endArrow=classic;html=1;rounded=0;strokeColor=#4A148C;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="410" y="380" as="sourcePoint"/>
+                        <mxPoint x="550" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg5a" value="5a: ingest_news()" style="endArrow=classic;html=1;rounded=0;strokeColor=#666666;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="550" y="400" as="sourcePoint"/>
+                        <mxPoint x="1250" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg5b" value="5b: preprocess_news()" style="endArrow=classic;html=1;rounded=0;strokeColor=#4A148C;strokeWidth=2;endArrow=classic;startArrow=none;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="550" y="420" as="sourcePoint"/>
+                        <mxPoint x="550" y="440" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg5c" value="5c: classify_news()" style="endArrow=classic;html=1;rounded=0;strokeColor=#4A148C;strokeWidth=2;endArrow=classic;startArrow=none;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="550" y="460" as="sourcePoint"/>
+                        <mxPoint x="550" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg5d" value="5d: extract_key_information()" style="endArrow=classic;html=1;rounded=0;strokeColor=#4A148C;strokeWidth=2;endArrow=classic;startArrow=none;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="550" y="500" as="sourcePoint"/>
+                        <mxPoint x="550" y="520" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg5e" value="5e: summarize_news()" style="endArrow=classic;html=1;rounded=0;strokeColor=#4A148C;strokeWidth=2;endArrow=classic;startArrow=none;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="550" y="540" as="sourcePoint"/>
+                        <mxPoint x="550" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg5-return" value="news summary" style="endArrow=classic;html=1;rounded=0;strokeColor=#4A148C;strokeWidth=2;dashed=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="550" y="580" as="sourcePoint"/>
+                        <mxPoint x="410" y="580" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern2-box" value="Pattern 2: Routing (Specialist Analysis)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#C62828;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="610" width="300" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="msg6" value="6: route_analysis(request, symbol)" style="endArrow=classic;html=1;rounded=0;strokeColor=#C62828;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="410" y="650" as="sourcePoint"/>
+                        <mxPoint x="690" y="650" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg6a" value="6a: TechnicalAnalyst.analyze()" style="endArrow=classic;html=1;rounded=0;strokeColor=#00695C;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="690" y="670" as="sourcePoint"/>
+                        <mxPoint x="830" y="670" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg6b" value="6b: FundamentalAnalyst.analyze()" style="endArrow=classic;html=1;rounded=0;strokeColor=#00695C;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="690" y="690" as="sourcePoint"/>
+                        <mxPoint x="830" y="690" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg6c" value="6c: NewsAnalyst.analyze()" style="endArrow=classic;html=1;rounded=0;strokeColor=#00695C;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="690" y="710" as="sourcePoint"/>
+                        <mxPoint x="830" y="710" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg6d" value="get_stock_data()" style="endArrow=classic;html=1;rounded=0;strokeColor=#666666;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="830" y="730" as="sourcePoint"/>
+                        <mxPoint x="1250" y="730" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg6e" value="get_alpha_vantage_data()" style="endArrow=classic;html=1;rounded=0;strokeColor=#666666;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="830" y="750" as="sourcePoint"/>
+                        <mxPoint x="1250" y="750" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg6-return" value="specialist analyses" style="endArrow=classic;html=1;rounded=0;strokeColor=#C62828;strokeWidth=2;dashed=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="690" y="770" as="sourcePoint"/>
+                        <mxPoint x="410" y="770" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern3-box" value="Pattern 3: Evaluator-Optimizer (Analysis Refinement)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E65100;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="800" width="350" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="msg7" value="7: run_optimization_loop(analysis)" style="endArrow=classic;html=1;rounded=0;strokeColor=#E65100;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="410" y="840" as="sourcePoint"/>
+                        <mxPoint x="970" y="840" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg7a" value="7a: evaluate_analysis()" style="endArrow=classic;html=1;rounded=0;strokeColor=#E65100;strokeWidth=2;endArrow=classic;startArrow=none;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="970" y="860" as="sourcePoint"/>
+                        <mxPoint x="970" y="880" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg7b" value="7b: optimize_analysis()" style="endArrow=classic;html=1;rounded=0;strokeColor=#E65100;strokeWidth=2;endArrow=classic;startArrow=none;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="970" y="900" as="sourcePoint"/>
+                        <mxPoint x="970" y="920" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg7-return" value="optimized analysis" style="endArrow=classic;html=1;rounded=0;strokeColor=#E65100;strokeWidth=2;dashed=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="970" y="940" as="sourcePoint"/>
+                        <mxPoint x="410" y="940" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg8" value="8: learn_from_experience()" style="endArrow=classic;html=1;rounded=0;strokeColor=#880E4F;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="410" y="970" as="sourcePoint"/>
+                        <mxPoint x="1110" y="970" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg9" value="9: generate_investment_report()" style="endArrow=classic;html=1;rounded=0;strokeColor=#F57F17;strokeWidth=2;endArrow=classic;startArrow=none;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="410" y="1000" as="sourcePoint"/>
+                        <mxPoint x="410" y="1020" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg10" value="10: investment report + visualizations" style="endArrow=classic;html=1;rounded=0;strokeColor=#2E7D32;strokeWidth=2;dashed=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="410" y="1040" as="sourcePoint"/>
+                        <mxPoint x="270" y="1040" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg11" value="11: display results to user" style="endArrow=classic;html=1;rounded=0;strokeColor=#0277BD;strokeWidth=2;dashed=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="270" y="1060" as="sourcePoint"/>
+                        <mxPoint x="130" y="1060" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="note1" value="Self-Reflection&#xa;occurs throughout&#xa;the process" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;strokeWidth=2;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="1350" y="300" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="note2" value="Memory System&#xa;stores and retrieves&#xa;past experiences" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;strokeWidth=2;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="1350" y="400" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="note3" value="Three Workflow&#xa;Patterns executed&#xa;in sequence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;strokeWidth=2;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="1350" y="500" width="100" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
