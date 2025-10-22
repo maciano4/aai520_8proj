@@ -12,6 +12,12 @@ AAI-520 Final Project: Advanced AI Investment Research System
 - Christopher Akeibom Toh (cakeibomtoh@sandiego.edu)
 - Nelson Arellano Parra (narellanoparra@sandiego.edu)
 
+**Instructor**: Professor Kahila Mokhtari Jadid
+
+## Demo Video: https://github.com/swapnilprakashpatil/aai520_8proj/blob/main/investment_research_agent_demo.mp4
+
+## Project Documentation: https://swapnilprakashpatil.github.io/aai520_8proj/investment_research_agent.html
+
 ## Project Overview
 
 This project implements a comprehensive Investment Research Agent using multiple AI agent patterns and Azure OpenAI. The system demonstrates advanced autonomous AI capabilities for investment analysis and decision-making.
